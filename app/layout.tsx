@@ -19,7 +19,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="mx-auto max-w-6xl px-5 h-14 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 font-semibold">
               <span className="inline-block h-5 w-5 rounded bg-accent" />
-              Options<span class='text-muted font-normal'>Toolkit</span>
+              Options<span className="text-muted font-normal">Toolkit</span>
             </Link>
             <nav className="flex items-center gap-5 text-sm text-muted">
               <Link href="/" className="hover:text-foreground">Price</Link>
